@@ -1,0 +1,456 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.index{
+    background-attachment: fixed;
+    background-color: orange;
+    margin: 0px;
+    padding: 0px;
+}
+mark{
+   background-color: orange; 
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    font-family: Roboto sans;
+    font-size: 2em;
+    color: white;
+    
+}
+nav a:hover{
+    background-color:  black;
+    border: solid 1px;
+    height: 100%;
+    margin-top: 5px;
+    border-radius: 20%;
+    color: white;
+}
+nav img{
+    border-radius: 50%;
+    margin-top: 2px;
+    box-shadow: 2px 4px 5px;
+    background-color: rgb(134, 45, 45);
+}
+header{
+    width: 80%;
+    margin: auto;
+    box-shadow: 2px 4px 5px;
+}
+header p{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-family: Roboto sans;
+    font-size: 2em;
+    color: white;
+}
+marquee{
+    margin: auto;
+    font-family: Roboto sans;
+    font-size: 2em;
+    transition: 0.2s;
+}
+header:hover{
+    color: white;
+    transition: 1s;
+}
+header marquee h1:hover{
+    color: white;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+main p{
+    text-align: center;
+    color: white;
+}
+.plat{
+    display: flex;
+    justify-content: space-around;
+    height: 20em;
+}
+.riz{
+    box-shadow: 2px 4px 5px;
+}
+.riz:hover{
+    scale: 1.1;
+    transition: 2s;
+    border-radius: 5%;
+    background-color: rgb(134, 45, 45);
+    color: white;
+}
+.riz li{
+    background-color: rgb(134, 45, 45);
+    text-align: center;
+    font-family: Roboto sans;
+    font-size: 2em;
+}
+.yassa:hover{
+    scale: 1.1;
+    transition: 2s;
+    background-color: rgb(134, 45, 45);
+    border-radius: 5%;
+    color: white;
+}
+.yassa li{
+    background-color: rgb(134, 45, 45);
+    text-align: center;
+    font-family: Roboto sans;
+    font-size: 2em;
+} 
+.poulet li{
+    background-color: rgb(134, 45, 45);
+    text-align: center;
+    font-family: Roboto sans;
+    font-size: 2em;
+}
+.mafé:hover{
+   scale: 1.1;
+   transition: 2s;
+   background-color: rgb(134, 45, 45);
+   border-radius: 5%;
+   color: white;
+}
+.mafé li{
+    background-color: rgb(134, 45, 45);
+    text-align: center;
+    font-family: Roboto sans;
+    font-size: 2em;
+}
+.yassa{
+    box-shadow: 2px 4px 5px;
+}
+.poulet:hover{
+    scale: 1.1;
+    transition: 2s;
+    border-radius: 5%;
+    background-color: rgb(134, 45, 45);
+    color: white;
+}
+.poulet{
+    box-shadow: 2px 4px 5px;
+}
+.mafé{
+    box-shadow: 2px 4px 5px;
+}
+.plat li{
+  list-style-type: none;
+}
+footer{
+    width: 80%;
+    margin: auto;
+    font-family: Roboto sans;
+    font-size: 2em;
+}
+.localisation ol{
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+.dakar{
+    display: flex;
+    align-items: center;
+}
+.saint-louis{
+    display: flex;
+    align-items: center;
+}
+.ziguinchor{
+    display: flex;
+    align-items: center;
+}
+
+/* Contact.html */
+
+.contact{
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+.bouton input{
+    border: solid 2px;
+    border-radius: 8px;
+}
+.buton input:hover{
+    scale: 1s;
+    transition: 1s;
+    box-shadow: 2px 4px 5px;
+}
+
+tr {
+    align-items: center;
+}
+
+footer h1{
+    text-align: center;
+}
+table {
+    margin: auto;
+    box-shadow: 2px 4px 5px;
+}
+
+nav a{
+    list-style-type: none;
+}
+.présentation{
+    width: 50%;
+    margin-top: 10%;
+}
+.audio .présentation{
+    margin-bottom: 10px;
+    border-color: rgb(134, 45, 45);
+}
+main{
+    border: solid 1px;
+    color: white;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+video{
+    margin-top: 0px;
+    width: 50vh;
+    height: 50vh;
+}
+footer{
+    margin-bottom: 10px;
+}
+
+table {
+    box-shadow: 2px 4px 5px ;
+}
+
+/*menu.html*/
+.menuresto{
+    background-color: orange;
+    margin: 0;
+    padding: 0;
+}
+h1 marquee:hover{
+    color: rgb(134, 45, 45);
+    scale: 1.1;
+    transition: 2s;
+    margin: auto;
+}
+p{
+    font-family: Roboto sans;
+    font-size: 2em;
+}
+.menu, td{
+    border-collapse: collapse;
+}
+.menu td, th{
+    border: solid 2px;
+}
+.menu{
+    margin: auto;
+}
+main h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+main .platpop{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.riz1{
+    box-shadow: 4px 10px 20px;
+    width: 39vh;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+}
+.riz1 h2{
+    opacity: 0;
+}
+.riz1 h2:hover{
+    opacity: 1;
+    text-align: center;
+    color: white;
+    scale: 1.1;
+    transition: 1s;
+}
+.riz1:hover{
+    border-radius: 20%;
+}
+.riz1 img{
+    border-radius: 50%;
+    box-shadow: 2px 4px 5px;
+}
+.mafé1{
+    width: 39vh;
+    box-shadow: 4px 10px 20px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+.mafé1:hover{
+    border-radius: 20%;
+}
+.mafé1 h2:hover{
+    opacity: 1;
+    color: white;
+    text-align: center;
+    scale: 1.1;
+    transition: 1s;
+}
+.mafé1 h2{
+    opacity: 0;
+}
+.mafé1 img{
+    border-radius: 50%;
+     box-shadow: 2px 4px 5px;
+}
+.yassa1{
+    width: 39vh;
+    box-shadow: 4px 10px 20px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+.yassa1 h2{
+    opacity: 0;
+}
+.yassa1 img{
+    border-radius: 50%;
+    box-shadow: 2px 4px 5px;
+}
+.yassa1:hover{
+    border-radius: 20%;
+}
+.yassa1 h2:hover{
+     text-align: center;
+     scale: 1.1;
+     transition: 1s;
+     opacity: 1;
+     color: white;
+}
+td a img{
+    box-shadow: 2px 4px 5px;
+    border-radius: 50%;
+    color: black;
+}
+/*Avis.html*/
+.avis{
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+.témoignage1 {
+    width: 100%;
+    box-shadow: 2px 4px 5px;
+    justify-content: center;
+    justify-content: space-between;
+}
+.témoignage1 a{
+    text-decoration: none;
+    border-radius: 8px;
+    color: black;
+    border: solid 2px;
+}
+.témoignage1 a:hover{
+    color: white;
+}
+
+.témoignage1 .numéro1:hover{
+    transition: 1s;
+    scale: 1;
+    border-radius: 20%;
+}
+.témoignage1 .numéro1 a:hover{
+    box-shadow: 2px 4px 5px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.témoignage1 .numéro2:hover{
+    transition: 1s;
+    scale: 1s;
+    border-radius: 20%; 
+}
+.témoignage1 .numéro2 a:hover{
+     box-shadow: 2px 4px 5px;
+     border-radius: 20px;
+     transition: 1s;
+}
+.témoignage1 .numéro3:hover{
+    border-radius: 20%;
+    transition: 1s;
+    scale: 1;
+}
+.témoignage1 .numéro3 a:hover{
+    box-shadow: 2px 4px 5px;
+    border-radius: 20px;
+    transition: 1s;
+} 
+.témoignage1 .numéro3 p{
+    width: 100%;
+    color: black;
+}
+.témoignage1 .numéro3 img{
+    border: solid 3px;
+    color: white;
+    box-shadow: 2px 4px 5px;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+/*Témoignage.html*/
+.client{
+    background-color: orange;
+    margin: 0;
+    padding: 0;
+}
+nav a:hover{
+    transition: 1s;
+}
+.client1 img{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 60vh;
+    border-radius: 20%;
+    box-shadow: 2px 4px 5px;
+}
+.client1 h2{
+    margin-left: 70vh;
+}
+.client11 img{
+    margin-left: 70vh;
+    border-radius: 50%;
+}
+.client2{
+    background-color: orange;
+}
+.client22 img{
+    margin-left: 70vh;
+    box-shadow: 2px 4px 5px;
+    border-radius: 20%;
+}
+.client22 h2{
+    margin-left: 85vh;
+}
+.client222 img{
+    margin-left: 80vh;
+    border-radius: 50%;
+}
+.client3{
+    background-color: orange;
+}
+.client33 h2{
+    margin-left: 85vh;
+}
+.client33 img{
+    margin-left: 70vh;
+    border-radius: 20%;
+    box-shadow: 2px 4px 5px;
+}
+.client333 img{
+    margin-left: 80vh;
+    border-radius: 50%;
+}
